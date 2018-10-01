@@ -636,10 +636,6 @@ font_config(){
 }
 #}}}
 #VIDEO CARDS {{{
-create_ramdisk_environment(){
-}
-install_video_cards(){
-}
 #}}}
 #CUPS {{{
 install_cups(){
