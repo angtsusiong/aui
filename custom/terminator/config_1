@@ -1,0 +1,30 @@
+[global_config]
+  title_font = OperatorMonoLig Nerd Font weight=330 9
+  title_hide_sizetext = True
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#1e1f29"
+    background_darkness = 0.9
+    background_type = transparent
+    copy_on_selection = True
+    cursor_blink = False
+    cursor_color = "#aaaaaa"
+    font = OperatorMonoLig Nerd Font Semi-Light 10
+    foreground_color = "#f8f8f2"
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    scrollback_lines = 500000
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False

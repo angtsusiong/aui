@@ -1,0 +1,58 @@
+[theme]
+name = "solarized-dark"
+[theme.overrides]
+idle_bg = "#453456"
+idle_fg = "#dc81c4"
+info_fg = "#dc81c4"
+info_bg = "#453456"
+separator = ""
+separator_fg = "#dc81c4"
+separator_bg = "#453456"
+
+[icons]
+name = "awesome"
+[icons.overrides]
+music_pause = " ﲤ  ﲤ  ﲤ  "
+music_play  = " ﲤ    ﲤ  "
+music = ""
+
+[[block]]
+block = "music"
+player = "spotify"
+buttons = ["play"]
+max_width = 0
+marquee = false
+
+[[block]]
+block = "disk_space"
+path = "/"
+alias = ""
+info_type = "available"
+unit = "GB"
+interval = 300
+warning = 20.0
+alert = 10.0
+
+[[block]]
+block = "memory"
+display_type = "memory"
+format_mem = "{MUp}%"
+format_swap = "{SUp}%"
+interval = 15
+
+[[block]]
+block = "cpu"
+interval = 5
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "time"
+interval = 1
+format = "%H:%M:%S"
+
+[[block]]
+block = "time"
+interval = 300
+format = "%b-%e-%Y   Week-%V %A"
